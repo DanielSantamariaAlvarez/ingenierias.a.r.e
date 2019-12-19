@@ -1,17 +1,18 @@
 
-var nosotros;
-var contacto;
+var nosotros = $('#nosotros').offset().top;
+var contacto = $('#contacto').offset().top;
+var extra = 40;
 
 
-window.onload = function(){
-  nosotros= $('#nosotros').offset().top;
-  contacto= $('#contacto').offset().top;
-};
+// window.onload = function(){
+//   nosotros= $('#nosotros').offset().top;
+//   contacto= $('#contacto').offset().top;
+// };
 
 $('.btn-nosotros').on('click', function(e){
   e.preventDefault();
   $('html, body').animate({
-      scrollTop: nosotros
+      scrollTop: nosotros 
 /*tiempo que tarda la animación --> */    }, 800);
 });
 
