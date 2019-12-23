@@ -977,7 +977,8 @@ h2, h2, h3, h4, h5,
       font-size: 15px; }
 
 .footer {
-  padding: 4rem 0;
+  padding-top: 2rem ;
+  padding-bottom: 1rem;
   background: #000;
   font-size: 15px;
   color: #fff; }
